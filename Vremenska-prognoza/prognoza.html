@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Prognoza</title>
+  <link rel="stylesheet" href="prognoza.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+<a><b></b></a>
+
+</head>
+<body>
+<div class="content">
+      <form>
+        <input type='text' id='grad_value' placeholder="Unesite grad">
+        <br>
+        <input type='submit' id='send'>
+      </form>
+    <div id="tabs">
+      <ul>
+        <div class="all">
+            <div class="button"><li><a href="#tabs-1">Sutra</a></li></div>
+            <div class="button"><li><a href="#tabs-2">Prekosutra</a></li></div>
+            <div class="button"><li><a href="#tabs-3">Za 3 dana</a></li></div>
+            <div class="button"><li><a href="#tabs-4">Za 4 dana</a></li></div>
+            <div class="button"><li><a href="#tabs-5">Za 5 dana</a></li></div>
+          </div>
+      </ul>
+    </div>
+      <div id="tabs-1">
+      </div>
+      <div id="tabs-2">
+      </div>
+      <div id="tabs-3">
+      </div>
+      <div id="tabs-4">
+      </div>
+      <div id="tabs-5">
+      </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script type="text/javascript" src="prognoza.js"></script>
+</body>
+</html>

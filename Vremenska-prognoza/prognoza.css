@@ -1,0 +1,74 @@
+*{
+  outline: none;
+}
+body{
+  background-image: url(sun.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 3600px;
+}
+
+#grad_value {
+  height: 25px;
+  padding-left: 7px;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 146px;
+}
+#send {
+  height: 30px;
+  width: 80px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: black;
+  margin-left: 37px;
+  margin-top: 10px;
+}
+
+.content {
+  width: 16%;
+  margin: auto;
+}
+
+form {
+  margin-left: 62px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: blue;
+  padding-button: 10px;
+  text-decoration: none;
+}
+
+.all {
+  margin-left: 54px;;
+}
+
+.button {
+    width: 90px;
+    height: 30px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+  text-align: center;
+  margin-top: 10px;
+}
+
+table {
+  background-color: rgba(0, 0, 0, 0.09);
+  margin-top: 20px;
+}
+
+td {
+  text-align: center;
+}
